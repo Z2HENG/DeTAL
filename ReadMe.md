@@ -13,3 +13,7 @@ The project was modified from [ActionFormer](https://github.com/happyharrycn/act
 + Install dependencies: `pip install -r requirements.txt`
 + Install NMS(Non-Maximum Suppression) by following steps:
   `cd ./libs/utils; python setup.py install --user; cd ../..`
+
+## Data Preparation
+#### Thumos14 dataset
+Download features and annotations from [Thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)
