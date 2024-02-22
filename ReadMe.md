@@ -18,4 +18,21 @@ The project was modified from [ActionFormer](https://github.com/happyharrycn/act
 #### Thumos14 dataset
 Download features and annotations from [Thumos_i3d](https://github.com/happyharrycn/actionformer_release/tree/main)
 
-#### Unpack the zip folder and modified as './data', the folder structure should look like
+Unpack the zip folder and modified as './data', the folder structure should look like
+
+```
+DeTAL-release/
+  ├── data
+  │   ├── anet_1.3
+  │   │   ├── annotations
+  │   │   ├── i3d_features
+  │   │   ├── tsp_features
+  │   └── thumos
+  │       ├── annotations
+  │       ├── i3d_features
+  ├── libs
+  ├── tools
+  ├── eval.py
+  ├── train.py
+  └── ...
+```
