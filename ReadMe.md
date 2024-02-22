@@ -36,3 +36,8 @@ DeTAL-release/
   ├── train.py
   └── ...
 ```
+
+
+## Training and Testing
+
+### First Stage
