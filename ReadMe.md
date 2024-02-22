@@ -10,3 +10,6 @@ This repository contains the code for DeTAL: Open-Vocabulary Temporal Action Loc
 The project was modified from [ActionFormer](https://github.com/happyharrycn/actionformer_release), thanks for their wonderful work!
 
 + Recommended Environment: python >= 3.8, cuda 11.3, PyTorch 1.10.2
++ Install dependencies: `pip install -r requirements.txt`
++ Install NMS(Non-Maximum Suppression) by following steps:
+  `cd ./libs/utils; python setup.py install --user; cd ../..`
