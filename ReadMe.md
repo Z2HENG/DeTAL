@@ -44,9 +44,8 @@ DeTAL-release/
 ## Training and Testing
 ##### We will provide a bash file to facilitate the training and testing of various split settings.
 
-Modified the config file './configs/thumos_i3d.yaml'
-
 ### First Stage
+Modified the config file './configs/thumos_i3d.yaml'
 ##### Run Training the first stage on THUMOS14 dataset
 
 `python ./train.py ./configs/thumos_i3d.yaml --output rpn_split_x`
@@ -54,3 +53,6 @@ Modified the config file './configs/thumos_i3d.yaml'
 ##### Run Testing the first stage on THUMOS14 dataset
 
 `python ./eval.py ./configs/thumos_i3d.yaml ./ckpt_base/thumos_i3d_rpn_split_x/`
+
+### Second Stage
+##### We will provide a bash file to facilitate the training and testing of the second stage under various split settings.
