@@ -42,7 +42,6 @@ DeTAL-release/
 
 
 ## Training and Testing
-##### We will provide a bash file to facilitate the training and testing of various split settings.
 
 ### First Stage
 Modified the config file './configs/thumos_i3d.yaml'
