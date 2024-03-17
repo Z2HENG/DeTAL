@@ -54,4 +54,7 @@ Modified the config file './configs/thumos_i3d.yaml'
 `python ./eval.py ./configs/thumos_i3d.yaml ./ckpt_base/thumos_i3d_rpn_split_x/`
 
 ### Second Stage
+
+ModiFied the file_path in 'cls_heads.py'
+`python ./eval.py ./configs/thumos_i3d.yaml ./ckpt_base/thumos_i3d_rpn_split_x/`
 ##### We will provide a bash file to facilitate the training and testing of the second stage under various split settings.
