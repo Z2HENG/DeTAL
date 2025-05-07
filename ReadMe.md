@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code for DeTAL: Open-Vocabulary Temporal Action Localization with Decoupled Networks [paper](https://www.baidu.com). 
+This repository contains the code for DeTAL: Open-Vocabulary Temporal Action Localization with Decoupled Networks [paper](https://ieeexplore.ieee.org/document/10517407). 
 
 ![Overview](./assets/overview.png)
 
